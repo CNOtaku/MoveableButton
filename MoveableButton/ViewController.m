@@ -8,6 +8,9 @@
 
 #import "ViewController.h"
 
+#import "CHMoveButton.h"
+
+
 @interface ViewController ()
 
 @end
@@ -17,6 +20,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    CHMoveButton *button = [[CHMoveButton alloc]initWithFrame:CGRectMake(30, 100, 100, 100)];
+    
+    button.backgroundColor = [UIColor grayColor];
+    [self.view addSubview:button];
 }
 
 

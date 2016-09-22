@@ -15,6 +15,7 @@
 		91436E2D1D9367680083288C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91436E2B1D9367680083288C /* LaunchScreen.storyboard */; };
 		91436E381D9367680083288C /* MoveableButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 91436E371D9367680083288C /* MoveableButtonTests.m */; };
 		91436E431D9367680083288C /* MoveableButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 91436E421D9367680083288C /* MoveableButtonUITests.m */; };
+		91436E521D9367AA0083288C /* CHMoveButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 91436E511D9367AA0083288C /* CHMoveButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		91436E3E1D9367680083288C /* MoveableButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoveableButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		91436E421D9367680083288C /* MoveableButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoveableButtonUITests.m; sourceTree = "<group>"; };
 		91436E441D9367680083288C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91436E501D9367AA0083288C /* CHMoveButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHMoveButton.h; sourceTree = "<group>"; };
+		91436E511D9367AA0083288C /* CHMoveButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHMoveButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				91436E211D9367680083288C /* AppDelegate.m */,
 				91436E231D9367680083288C /* ViewController.h */,
 				91436E241D9367680083288C /* ViewController.m */,
+				91436E501D9367AA0083288C /* CHMoveButton.h */,
+				91436E511D9367AA0083288C /* CHMoveButton.m */,
 				91436E261D9367680083288C /* Main.storyboard */,
 				91436E291D9367680083288C /* Assets.xcassets */,
 				91436E2B1D9367680083288C /* LaunchScreen.storyboard */,
@@ -279,6 +284,7 @@
 				91436E251D9367680083288C /* ViewController.m in Sources */,
 				91436E221D9367680083288C /* AppDelegate.m in Sources */,
 				91436E1F1D9367680083288C /* main.m in Sources */,
+				91436E521D9367AA0083288C /* CHMoveButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
